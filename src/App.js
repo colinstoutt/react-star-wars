@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import Starship from "./components/Starship/Starship";
-import spaceAutoplay from "../src/Y2Mate.is - Space Flight Loop-NtOwzU5Rpp8-720p-1660185623250.mp4";
 
 function App() {
   const [shipData, setShipData] = useState({});
@@ -35,9 +34,6 @@ function App() {
   });
   return (
     <div className="App">
-      <video autoPlay loop muted>
-        <source src={spaceAutoplay} type="video/mp4" />
-      </video>
       <h1 className="heading-main">In a galaxy far far away...</h1>
       <h2 className="heading-sub">Starships</h2>
 
