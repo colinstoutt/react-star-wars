@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import Starship from "./components/Starship";
+import Starship from "./components/Starship/Starship";
+import spaceAutoplay from "../src/Y2Mate.is - Space Flight Loop-NtOwzU5Rpp8-720p-1660185623250.mp4";
 
 function App() {
   const [shipData, setShipData] = useState({});
@@ -28,13 +29,19 @@ function App() {
         passengers={ship.passengers}
         pilots={ship.pilots}
         length={ship.length}
+        cost={ship.cost_in_credits}
       />
     );
   });
   return (
     <div className="App">
-      <h1>In a galaxy far far away...</h1>
-      {ships}
+      <video autoPlay loop muted>
+        <source src={spaceAutoplay} type="video/mp4" />
+      </video>
+      <h1 className="heading-main">In a galaxy far far away...</h1>
+      <h2 className="heading-sub">Starships</h2>
+
+      <main className="ships">{ships}</main>
     </div>
   );
 }
