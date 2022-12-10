@@ -14,7 +14,6 @@ function App() {
   useEffect(() => {
     getShips();
   }, []);
-
   console.log(shipData.results);
 
   const ships = shipData.results?.map((ship, index) => {

@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 
 body {
+  background-image: url(https://rare-gallery.com/uploads/posts/4545481-star-wars-star-destroyer-tie-fighter-death-star.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
   background-color: black;
   color: gold;
   margin: 0;
@@ -13,13 +16,15 @@ body {
   margin-top: 0;
   padding: 3rem 0 0 0;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   color: gold;
   font-family: "Fjalla One", sans-serif;
   font-weight: 300;
 }
 
 .heading-sub {
+  font-size: 2rem;
+
   text-align: center;
   text-transform: uppercase;
   font-family: "Fjalla One", sans-serif;
@@ -46,8 +51,8 @@ p {
   border-radius: 10px;
   padding: 1rem;
   margin: 0.5rem;
-  border: 2px solid #79f0ef;
 }
+
 .ships {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
