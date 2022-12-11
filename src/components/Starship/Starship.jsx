@@ -9,8 +9,8 @@ export default function Starship(props) {
             props.name === "Star Destroyer" ||
             props.name === "Executor" ||
             props.name === "Sentinel-class landing craft"
-              ? "2px solid red"
-              : "2px solid blue",
+              ? "3px solid red"
+              : "3px solid blue",
         }}
         className="starship"
       >
