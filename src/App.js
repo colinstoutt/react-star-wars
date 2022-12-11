@@ -33,6 +33,9 @@ function App() {
   });
   return (
     <div className="App">
+      <video autoPlay loop muted>
+        <source src="https://i.imgur.com/F9X2djg.mp4" type="video/mp4" />
+      </video>
       <h1 className="heading-main">In a galaxy far far away...</h1>
       <h2 className="heading-sub">Starships</h2>
 
