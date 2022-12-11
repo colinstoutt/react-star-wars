@@ -36,7 +36,7 @@ export default function Starship(props) {
         </span>
         <br />
         <span>
-          Cost: <p>{props.cost}</p>
+          Cost: <p>₹{props.cost}</p>
         </span>
       </div>
     </>
